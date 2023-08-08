@@ -35,3 +35,61 @@ html,body{
     border-bottom: 2px solid;
     color: black
 }
+
+/* Header image */
+
+.col-box1{
+    width: auto;
+    height: 740px;
+    background-image: url(../assets/Second\ page\ cover1.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Box just beneath it */
+
+.col-box2{
+    width: auto;
+    height: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: lightgray;
+}
+
+/* Card layout row 1 */
+
+.col-box3{
+    margin-left: 260px;
+    margin-bottom: 20px;
+}
+
+.col-box4{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+/* Card layout row 2 */
+
+.col-box5{
+    margin-left: 260px;
+    margin-bottom: 20px;
+}
+
+.col-box6{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+/* Card layout row 3 */
+
+.col-box7{
+    margin-left: 260px;
+    margin-bottom: 20px;
+}
+
+.col-box8{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
