@@ -1,0 +1,130 @@
+html,body{
+    background-color: #ECE6DE;
+}
+
+footer{
+    width: auto;
+    background-color: #203854;
+    height: 300px;
+}
+
+/*nav-bar section */
+
+.navbar-brand{
+    padding-left: 20px;
+    padding-right: 120px;
+}
+
+.nav-item1{
+    padding-right: 40px;
+    color: white;
+}
+
+.nav-item2{
+    padding-right: 40px;
+    color: white;
+}
+
+.nav-item3{
+    padding-right: 40px;
+    color: white;
+}
+
+.nav-item4{
+    padding-right: 40px;
+    color: white;
+}
+
+.search-bar{
+    margin-left: 200px;
+}
+
+.nav-link.active{
+    border-bottom: 2px solid;
+    color: black
+}
+
+/*First image carousel */
+
+.col-box3{
+    background-image: url(../assets/Cover\ page\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 750px;
+}
+
+.col-box4{
+    background-color: lightgray;
+    height: 300px;
+    width: 50%;
+    padding-top: 30px;
+    margin-left: 40px;
+}
+
+/*API weather box */
+
+.col-box1{
+    height: 400px;
+    width: 400px;
+    align-items: left;
+    background-color: grey;
+    margin-top: 30px;
+    margin-left: 100px;
+    
+}
+
+.big-box{
+    height: 1000px;
+    color: #ECE6DE;
+}
+
+
+
+/*Frequently asked boxes */
+
+.col-box-a{
+    background-color: lightgray;
+    width: 300px;
+    height: 400px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+.col-box-b{
+    background-color: lightgray;
+    width: 300px;
+    height: 400px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.col-box-c{
+    background-color: lightgray;
+    width: 300px;
+    height: 400px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.col-box-d{
+    background-color: lightgray;
+    width: 300px;
+    height: 400px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+/* Restaurant deck image */
+
+.col-box5{
+    width: auto;
+    height: 600px;
+    background-image: url(../assets/On\ deck\ restauants\ 2.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}

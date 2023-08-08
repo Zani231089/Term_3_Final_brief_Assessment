@@ -1,0 +1,37 @@
+html,body{
+    background-color: #ECE6DE;
+}
+
+.navbar-brand{
+    padding-left: 20px;
+    padding-right: 120px;
+}
+
+.nav-item1{
+    padding-right: 40px;
+    color: white;
+}
+
+.nav-item2{
+    padding-right: 40px;
+    color: white;
+}
+
+.nav-item3{
+    padding-right: 40px;
+    color: white;
+}
+
+.nav-item4{
+    padding-right: 40px;
+    color: white;
+}
+
+.search-bar{
+    margin-left: 200px;
+}
+
+.nav-link.active{
+    border-bottom: 2px solid;
+    color: black
+}
