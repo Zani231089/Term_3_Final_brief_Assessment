@@ -2,9 +2,21 @@ html,body{
     background-color: #ECE6DE;
 }
 
+footer{
+    width: auto;
+    background-color: #203854;
+    height: 300px;
+}
+
+/* NavBar */
+
 .navbar-brand{
-    padding-left: 20px;
+    padding-left: 50px;
     padding-right: 120px;
+}
+
+.navbar{
+    height: 110px;
 }
 
 .nav-item1{
@@ -36,16 +48,6 @@ html,body{
     color: black
 }
 
-/* Header image */
-
-.col-box1{
-    width: auto;
-    height: 740px;
-    background-image: url(../assets/Second\ page\ cover1.jpeg);
-    background-position: center;
-    background-size: cover;
-}
-
 /*Box just beneath it */
 
 .col-box2{
@@ -59,37 +61,83 @@ html,body{
 }
 
 /* Card layout row 1 */
-
 .col-box3{
-    margin-left: 260px;
+    margin-left: 200px;
     margin-bottom: 20px;
 }
-
 .col-box4{
-    margin-left: 30px;
+    margin-left: 10px;
     margin-bottom: 20px;
 }
 
 /* Card layout row 2 */
-
 .col-box5{
-    margin-left: 260px;
+    margin-left: 200px;
     margin-bottom: 20px;
 }
-
 .col-box6{
-    margin-left: 30px;
+    margin-left: 10px;
     margin-bottom: 20px;
 }
 
 /* Card layout row 3 */
-
 .col-box7{
-    margin-left: 260px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+.col-box8{
+    margin-left: 10px;
     margin-bottom: 20px;
 }
 
-.col-box8{
+/* Box created for the horizontal line */
+.col-box9{
+    width: auto;
     margin-left: 30px;
-    margin-bottom: 20px;
+    margin-right: 30px;
+    border-bottom: 2px solid;
+    color: black
+    
+}
+
+/* Sign up boxes */
+
+.col-box-a{
+    width: 300px;
+    height: 50px;
+    border: 2px solid;
+    color: black;
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-bottom: 100px;
+
+}
+.col-box-b{
+    width: 300px;
+    height: 50px;
+    border: 2px solid;
+    color: black;
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-bottom: 100px;
+}
+.col-box-c{
+    width: 300px;
+    height: 50px;
+    border: 2px solid;
+    color: black;
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-bottom: 100px;
+
+}
+.col-box-d{
+    width: 300px;
+    height: 50px;
+    border: 2px solid;
+    color: black;
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-bottom: 100px;
+    
 }
