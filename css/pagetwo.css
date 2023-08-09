@@ -1,5 +1,8 @@
+
+
 html,body{
     background-color: #ECE6DE;
+    font-family: 'Quattrocento Sans', sans-serif;
 }
 
 footer{
@@ -9,6 +12,8 @@ footer{
 }
 
 /* NavBar */
+
+/* logo */
 
 .navbar-brand{
     padding-left: 50px;
@@ -44,8 +49,19 @@ footer{
 }
 
 .nav-link.active{
-    border-bottom: 2px solid;
-    color: black
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+.navbar{
+    background-color: #203854;
+    height: 70px;
+    width: 100%;
+    color: white;
+}
+
+.nav-link{
+    color: white;
 }
 
 /*Box just beneath it */
@@ -96,48 +112,63 @@ footer{
     margin-left: 30px;
     margin-right: 30px;
     border-bottom: 2px solid;
-    color: black
+    color: black;
+    margin-bottom: 30px;
+
+}
+
+/* Text above */
+
+.col-box10{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'Quattrocento', serif;
+    font-weight: 700;
+
+}
+
+.col-box11{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-style: italic;
     
 }
 
 /* Sign up boxes */
 
 .col-box-a{
-    width: 300px;
-    height: 50px;
-    border: 2px solid;
-    color: black;
-    margin-top: 30px;
-    margin-left: 5px;
-    margin-bottom: 100px;
-
+    margin-left: 30px;
+    width: 270px;
 }
+
 .col-box-b{
-    width: 300px;
-    height: 50px;
-    border: 2px solid;
-    color: black;
-    margin-top: 30px;
-    margin-left: 5px;
-    margin-bottom: 100px;
+    margin-left: -50px;
+    width: 270px;
 }
-.col-box-c{
-    width: 300px;
-    height: 50px;
-    border: 2px solid;
-    color: black;
-    margin-top: 30px;
-    margin-left: 5px;
-    margin-bottom: 100px;
 
+.col-box-c{
+    margin-left: -120px;
+    width: 270px;
 }
-.col-box-d{
-    width: 300px;
-    height: 50px;
-    border: 2px solid;
-    color: black;
-    margin-top: 30px;
-    margin-left: 5px;
-    margin-bottom: 100px;
-    
+
+.dropdown{
+    margin-left: -190px;
+    width: 400px;
+   
+}
+
+/* Submit button */ 
+
+.btn.btn-outline-secondary{
+    margin-left: 1130px;
+    margin-top: -63px;
+}
+
+.btn.btn-primary{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
 }

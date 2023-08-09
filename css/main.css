@@ -1,3 +1,4 @@
+
 html,body{
     background-color: white;
 }
@@ -5,34 +6,42 @@ html,body{
 footer{
     width: auto;
     background-color: #203854;
-    height: 300px;
+    height: 250px;
 }
 
 /*nav-bar section */
 
 .navbar-brand{
-    padding-left: 20px;
+    padding-left: 50px;
     padding-right: 120px;
 }
 
 .nav-item1{
     padding-right: 40px;
     color: white;
+    font-family: 'Quattrocento', serif;
+    font-weight: 400;
 }
 
 .nav-item2{
     padding-right: 40px;
     color: white;
+    font-family: 'Quattrocento', serif;
+    font-weight: 400;
 }
 
 .nav-item3{
     padding-right: 40px;
     color: white;
+    font-family: 'Quattrocento', serif;
+    font-weight: 400;
 }
 
 .nav-item4{
     padding-right: 40px;
     color: white;
+    font-family: 'Quattrocento', serif;
+    font-weight: 400;
 }
 
 .search-bar{
@@ -40,26 +49,83 @@ footer{
 }
 
 .nav-link.active{
-    border-bottom: 2px solid;
-    color: black
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+.navbar{
+    background-color: #203854;
+    height: 80px;
+    width: 100%;
+    color: white;
+}
+
+.nav-link{
+    color: white;
 }
 
 /*First image carousel */
 
-.col-box3{
+.col-box6{
     background-image: url(../assets/Cover\ page\ 1.jpg);
     background-position: center;
     background-size: cover;
     height: 750px;
 }
 
-.col-box4{
-    background-color: lightgray;
+.col-box9{
     height: 300px;
     width: 50%;
     padding-top: 30px;
     margin-left: 40px;
+    padding-left: 100px;
+    padding-top: 70px;
+    font-family: 'Quattrocento', serif;
+    font-weight: 700;
 }
+
+/*Second image carousel */
+
+.col-box7{
+    background-image: url(../assets/Carousel\ 2.png);
+    background-position: center;
+    background-size: cover;
+    height: 750px;
+}
+
+.col-box10{
+    height: 300px;
+    width: auto;
+    padding-top: 30px;
+    margin-left: 40px;
+    padding-left: 100px;
+    padding-top: 70px;
+    font-family: 'Quattrocento', serif;
+    font-weight: 700;
+    color: white;
+}
+
+/* Third image Carousel */
+
+.col-box8{
+    background-image: url(../assets/Cover\ page\ 3.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 750px;
+}
+
+.col-box11{
+    height: 300px;
+    width: 50%;
+    padding-top: 30px;
+    margin-left: 40px;
+    padding-left: 100px;
+    padding-top: 70px;
+    font-family: 'Quattrocento', serif;
+    font-weight: 700;
+    color: white;
+}
+
 
 /*API weather box */
 
@@ -78,36 +144,34 @@ footer{
     color: #ECE6DE;
 }
 
-
-
 /*Frequently asked boxes */
 
 .col-box-a{
-    background-color: lightgray;
+    background-color: #CFC7BB;
     width: 300px;
-    height: 400px;
-    margin-left: 60px;
+    height: 350px;
+    margin-left: 50px;
     margin-top: 40px;
 }
 .col-box-b{
-    background-color: lightgray;
+    background-color: #86BEC2;
     width: 300px;
-    height: 400px;
+    height: 350px;
     margin-left: 30px;
     margin-top: 40px;
 }
 .col-box-c{
-    background-color: lightgray;
+    background-color: #86BEC2;
     width: 300px;
-    height: 400px;
+    height: 350px;
     margin-left: 30px;
     margin-top: 40px;
 }
 .col-box-d{
-    background-color: lightgray;
+    background-color: #CFC7BB;
     width: 300px;
-    height: 400px;
-    margin-left: 30px;
+    height: 350px;
+    margin-left: 20px;
     margin-top: 40px;
 }
 
@@ -128,4 +192,11 @@ footer{
     background-color: rgba(0, 0, 0, 0.4);
     padding-left:10%;
     padding-top:100px;
+}
+
+/* Footer logo */
+
+.col-box12{
+    margin-top: 60px;
+    margin-left: 80px;
 }
