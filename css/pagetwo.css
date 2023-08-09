@@ -2,7 +2,6 @@
 
 html,body{
     background-color: #ECE6DE;
-    font-family: 'Quattrocento Sans', sans-serif;
 }
 
 footer{
@@ -69,12 +68,44 @@ footer{
 .col-box2{
     width: auto;
     height: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
     margin-top: 40px;
     margin-bottom: 40px;
     background-color: lightgray;
 }
+
+/* Filter and sort blocks */
+
+.col-box12{
+    margin-left: 100px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.col-box13{
+    margin-right: 800px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.col-box14{
+    margin-left: 110px;
+    text-align: center;
+    margin-top: 30px;
+    width: 100px;
+    height: 60px;
+}
+
+.col-box15{
+    margin-right: 100px;
+    text-align: center;
+    margin-top: 30px;
+    width: 100px;
+    height: 60px;
+
+}
+
 
 /* Card layout row 1 */
 .col-box3{
@@ -116,6 +147,31 @@ footer{
     margin-bottom: 30px;
 
 }
+
+/* Card text */
+/* Card 3 */
+
+.col-box-i{
+    font-family: 'Quattrocento', serif;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.col-box-ii{
+    font-family: 'Quattrocento', serif;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.col-box-iii{
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+
+}
+
 
 /* Text above */
 
