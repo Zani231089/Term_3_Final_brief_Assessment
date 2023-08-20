@@ -77,33 +77,15 @@ footer{
 
 /* Filter and sort blocks */
 
-.col-box12{
-    margin-left: 100px;
-    text-align: center;
+.green{
+    margin-left: 50px;
     margin-top: 30px;
 }
 
-.col-box13{
-    margin-right: 800px;
-    text-align: center;
-    margin-top: 30px;
-}
-
-.col-box14{
-    margin-left: 110px;
-    text-align: center;
-    margin-top: 30px;
-    width: 100px;
-    height: 60px;
-}
-
-.col-box15{
-    margin-right: 100px;
-    text-align: center;
-    margin-top: 30px;
-    width: 100px;
-    height: 60px;
-
+.grey{
+    margin-top: 60px;
+    width: 400px;
+    margin-left: -1500px;
 }
 
 

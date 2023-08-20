@@ -71,29 +71,33 @@
       <div class="col-box2">
 
         <!--Filter and sort block-->
-        <div class="row">
-          <div class="col-3">
-            <div class="col-box12">
-              <button class="btn btn-primary" type="submit">Short Trips</button>
-            </div>
-          </div>
-          <div class="col-3">
-            <div class="col-box13">
-              <button class="btn btn-primary" type="submit">Long trips</button>
-            </div>
-          </div>
-          <div class="col-3">
-            <div class="col-box14">
-              <button class="btn btn-primary" type="submit">Single Destination</button>
-              
-            </div>
-          </div>
-          <div class="col-3">
-            <div class="col-box15">
-              <button class="btn btn-primary" type="submit">Multi Destinations</button>
 
-            </div>
+        <div class="row align-items-center mt-4">
+
+          <!-- Filter Radio Buttons -->
+        <div class="green">
+          <div class="btn-group col-auto" role="group">
+            <input type="radio" class="btn-check" name="filterRadio" id="allTripsFilter" value="" autocomplete="off" checked>
+            <label class="btn btn-outline-success" for="allTripsFilter">All Trips</label>
+          
+            <input type="radio" class="btn-check" name="filterRadio" id="shortFilter" autocomplete="off" value="low">
+            <label class="btn btn-outline-success" for="shortFilter"><i class="bi-brightness-high"></i> Short Duration Trips</label>
+          
+            <input type="radio" class="btn-check" name="filterRadio" id="longFilter" autocomplete="off" value="bright">
+            <label class="btn btn-outline-success" for="longFilterr"><i class="bi-brightness-low"></i> Long Duration Trips</label>
           </div>
+        </div>  
+
+          <!-- Sorting Radio Buttons -->
+        <div class="grey">
+          <div class="btn-group col-auto" role="group">
+            <input type="radio" class="btn-check" name="sortRadio" id="singleSort" value="single" autocomplete="off" checked>
+            <label class="btn btn-outline-secondary" for="singleSort"><i class="bi bi-calendar4"></i> Single Destination</label>
+          
+            <input type="radio" class="btn-check" name="sortRadio" id="multipleSort" value="multiple" autocomplete="off">
+            <label class="btn btn-outline-secondary" for="multipleSort"><i class="bi bi-sort-down-alt"></i> Multiple Destinations</label>
+          </div>
+        </div>
         </div>
 
       </div>
@@ -101,9 +105,11 @@
   </div>
 
   <!--Card layout row 1-->
+
   <div class="row">
+    
     <div class="col-6">
-      <div class="col-box3">
+      <div class="col-box3" id="tripsCardTemplate">
         <div class="card" style="width: 500px; height: 400px;">
           <img src="../assets/Page 2 Card 1.jpg" class="card-img-top" alt="..." style="height: 400px; width: 500px;">
           <div class="card-body">
@@ -111,151 +117,17 @@
             <!--Card text-->
             <div class="row">
               <div class="col-4">
-                <div class="col-box-i"><p>3 NIGHTS</p></div>
+                <div class="col-box-i" id="durationText"><p>3 NIGHTS</p></div>
               </div>
               <div class="col-4">
-                <div class="col-box-ii"> Moorea</div>
+                <div class="col-box-ii" id="nameText"> Moorea</div>
               </div>
               <div class="col-4">
-                <div class="col-box-iii"><h7>Starting from</h7>
-                R3200/person
-                </div>
+                <div class="col-box-iii" id="priceText"><h7>R3200/person</h7></div>
               </div>
             </div>
 
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6">
-      <div class="col-box4">
-        <div class="card" style="width: 500px; height: 400px;">
-          <img src="../assets/Page 2 Card 2.png" class="card-img-top" alt="..." style="height: 400px; width: 500px;">
-          <div class="card-body">
-
-            <!--Card text-->
-            <div class="row">
-              <div class="col-4">
-                <div class="col-box-i"><p>3 NIGHTS</p></div>
-              </div>
-              <div class="col-4">
-                <div class="col-box-ii"> Mamanuca islands</div>
-              </div>
-              <div class="col-4">
-                <div class="col-box-iii"><h7>Starting from</h7>
-                R800/person
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!--Card layout row 2-->
-  <div class="row">
-    <div class="col-6">
-      <div class="col-box5">
-        <div class="card" style="width: 500px; height: 400px;">
-          <img src="../assets/Page 2 Card 3.png" class="card-img-top" alt="..." style="height: 400px; width: 500px;">
-          <div class="card-body">
-
-            <!--Card text-->
-            <div class="row">
-              <div class="col-4">
-                <div class="col-box-i"><p>4 NIGHTS</p></div>
-              </div>
-              <div class="col-4">
-                <div class="col-box-ii">Bora Bora, Mamanuca islands</div>
-              </div>
-              <div class="col-4">
-                <div class="col-box-iii"><h7>Starting from</h7>
-                R1900/person
-                </div>
-              </div>
-            </div>
-
-
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6">
-      <div class="col-box6">
-        <div class="card" style="width: 500px; height: 400px;">
-          <img src="../assets/Page 2 Card 4.png" class="card-img-top" alt="..." style="height: 315px; width: 500px;">
-          <div class="card-body">
-
-            <!--Card text-->
-            <div class="row">
-              <div class="col-4">
-                <div class="col-box-i"><p>5 NIGHTS</p></div>
-              </div>
-              <div class="col-4">
-                <div class="col-box-ii">Bora Bora, Mamanuca islands,Tahiti</div>
-              </div>
-              <div class="col-4">
-                <div class="col-box-iii"><h7>Starting from</h7>
-                R2100/person
-                </div>
-              </div>
-            </div>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!--Card layout row 3-->
-  <div class="row">
-    <div class="col-6">
-      <div class="col-box7">
-        <div class="card" style="width: 500px; height: 450px;">
-          <img src="../assets/Page Two card5.png" class="card-img-top" alt="..." style="height: 400px; width: 500px;">
-          <div class="card-body">
-
-            <!--Card text-->
-            <div class="row">
-              <div class="col-4">
-                <div class="col-box-i"><p>6 NIGHTS</p></div>
-              </div>
-              <div class="col-4">
-                <div class="col-box-ii">Samoa, Fiji, Cook islands</div>
-              </div>
-              <div class="col-4">
-                <div class="col-box-iii"><h7>Starting from</h7>
-                R7999/person
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6">
-      <div class="col-box8">
-        <div class="card" style="width: 500px; height: 450px;">
-          <img src="../assets/Page Two Card 6.png" class="card-img-top" alt="..." style="height: 400px; width: 500px;">
-          <div class="card-body">
-
-            <!--Card text-->
-            <div class="row">
-              <div class="col-4">
-                <div class="col-box-i"><p>8 NIGHTS</p></div>
-              </div>
-              <div class="col-4">
-                <div class="col-box-ii">Cook islands, Fiji, Bora bora</div>
-              </div>
-              <div class="col-4">
-                <div class="col-box-iii"><h7>Starting from</h7>
-                R9999/person
-                </div>
-              </div>
-            </div>
+            <p>Enjoy the luxurious and fine island of Moorea where there are a varied coral reef ecosystems and a colorful marine life.</p>
 
           </div>
         </div>

@@ -75,5 +75,78 @@ function loadTrips(tripsToShow) {
 
     //Clear all elements in trips card
 
-    $()
-}
+    $("#plantsContainer").empty();
+
+    //Loop through trips
+
+    for(let i = 0; i<plantsToShow.lengh; i++){
+        let plant = plantsToShow[i];
+
+        console.log(trips.name);
+
+        //1: Select the trips container add the trip to it
+        $("#plantsContainer").append($("#plantCardTemplate").html());
+
+        //2: Create a variable that contains the most recently added trip card
+        let currentChild = $("#plantsContainer").children().eq(i);
+
+        //3: Set the content for the current trip from the trips array
+        $(currentChild).find("#nameText").text(trip.name);
+        $(currentChild).find("#priceText").text("R" + trip.price);
+        $(currentChild).find("#descriptionText").text(trip.description);
+        $(currentChild).find(".card-img-top").attr('src','assets/' + plant.image);
+        $(currentChild).find("#durationText").text(trip.duration + "nights");
+        $(currentChild).find("#addedDateText").text(trip.addedDate);
+
+        //4: Hide description text from current card
+        $(currentChild).find("#descriptionText").hide()
+        $(currentChild).find("#durationText").hide()
+    };
+};
+
+
+// When the filter or sort is clicked
+
+$("input[name='filterRadio']").clicked(function(){
+    appliedFilter = $(this).attr('value');
+
+    filterSortTrips();
+});
+
+function filterSortTrips(){
+
+    let filteredSortedArrTrips = [];
+
+    console.log(appliedFilter);
+    console.log(appliedSort);
+
+    //Filter Trips
+
+    if(appliedFilter){
+        filteredSortedArrTrips = arrTrips.filter(trip => trip.duration == appliedFilter);
+    }else{
+        filteredSortedArrTrips = arrTrips;
+    }
+
+    //Sort Trips
+
+    if(appliedSort == "singleSort"){
+
+        //Sort trips for single destinations
+        filteredSortedArrTrips = filteredSortedArrTrips.sort((a, b) => {
+            return a.price - b.price;
+        });
+    }
+
+    console.log(filteredSortedArrTrips);
+
+    loadTrips(filteredSortedArrTrips);
+};
+
+//When a trips card is clicked
+
+$("#plantsContainer").on('click','.card', function(){
+
+    //Toggle the description text
+    $(this).find("#descriptionText").toggle();
+})
