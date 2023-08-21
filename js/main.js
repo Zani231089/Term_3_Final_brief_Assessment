@@ -75,12 +75,12 @@ function loadTrips(tripsToShow) {
 
     //Clear all elements in trips card
 
-    $("#plantsContainer").empty();
+    $("#tripsContainer").empty();
 
     //Loop through trips
 
-    for(let i = 0; i<plantsToShow.lengh; i++){
-        let plant = plantsToShow[i];
+    for(let i = 0; i < tripsToShow.length; i++){
+        let trip = tripsToShow[i];
 
         console.log(trips.name);
 
@@ -149,4 +149,9 @@ $("#plantsContainer").on('click','.card', function(){
 
     //Toggle the description text
     $(this).find("#descriptionText").toggle();
-})
+
+    //Resize image
+    $(this).find(".card-img-top").toggleClass("small")
+});
+
+https://api.openweathermap.org/data/2.5/weather?q=pretoria&appid=0c8a911e5c7f8e5a03991afe2075de21
