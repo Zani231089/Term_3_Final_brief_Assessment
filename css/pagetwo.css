@@ -1,5 +1,4 @@
 
-
 html,body{
     background-color: #ECE6DE;
 }
@@ -90,33 +89,13 @@ footer{
 
 
 /* Card layout row 1 */
-.col-box3{
-    margin-left: 200px;
-    margin-bottom: 20px;
-}
-.col-box4{
-    margin-left: 10px;
-    margin-bottom: 20px;
+.card{
+    text-align: center;
 }
 
-/* Card layout row 2 */
-.col-box5{
-    margin-left: 200px;
-    margin-bottom: 20px;
-}
-.col-box6{
-    margin-left: 10px;
-    margin-bottom: 20px;
-}
-
-/* Card layout row 3 */
-.col-box7{
-    margin-left: 200px;
-    margin-bottom: 20px;
-}
-.col-box8{
-    margin-left: 10px;
-    margin-bottom: 20px;
+.card-img-top{
+    width: auto;
+    height: 320px;
 }
 
 /* Box created for the horizontal line */
@@ -127,30 +106,6 @@ footer{
     border-bottom: 2px solid;
     color: black;
     margin-bottom: 30px;
-
-}
-
-/* Card text */
-/* Card 3 */
-
-.col-box-i{
-    font-family: 'Quattrocento', serif;
-    font-weight: 700;
-    text-align: center;
-    padding-top: 10px;
-}
-
-.col-box-ii{
-    font-family: 'Quattrocento', serif;
-    font-weight: 400;
-    text-align: center;
-
-}
-
-.col-box-iii{
-    font-family: 'Quattrocento Sans', sans-serif;
-    font-weight: 400;
-    text-align: center;
 
 }
 
@@ -209,4 +164,12 @@ footer{
     width: 150px;
     height: 40px;
     border-radius: 5px;
+}
+
+/*Footer */
+
+.col-box12{
+    margin-top: 40px;
+    margin-left: 80px;
+    color: white;
 }

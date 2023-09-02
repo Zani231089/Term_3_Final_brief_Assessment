@@ -52,3 +52,12 @@ html,body{
 .nav-link{
     color: white;
 }
+
+/* Footer */
+
+.col-box12{
+    margin-top: 40px;
+    margin-left: 80px;
+    color: white;
+}
+

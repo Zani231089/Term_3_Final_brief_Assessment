@@ -144,35 +144,18 @@ footer{
     color: #ECE6DE;
 }
 
-/*Frequently asked boxes */
+/* ACCORDION */
 
-.col-box-a{
-    background-color: #CFC7BB;
-    width: 300px;
-    height: 350px;
+.accordion.accordion-flush{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.accordion-body{
     margin-left: 50px;
-    margin-top: 40px;
-}
-.col-box-b{
-    background-color: #86BEC2;
-    width: 300px;
-    height: 350px;
-    margin-left: 30px;
-    margin-top: 40px;
-}
-.col-box-c{
-    background-color: #86BEC2;
-    width: 300px;
-    height: 350px;
-    margin-left: 30px;
-    margin-top: 40px;
-}
-.col-box-d{
-    background-color: #CFC7BB;
-    width: 300px;
-    height: 350px;
-    margin-left: 20px;
-    margin-top: 40px;
+    margin-right: 50px;
+    background-color:#86BEC2;
+    margin-top: 20px;
 }
 
 /* Restaurant deck image */
@@ -197,6 +180,12 @@ footer{
 /* Footer logo */
 
 .col-box12{
-    margin-top: 60px;
+    margin-top: 40px;
     margin-left: 80px;
+    color: white;
 }
+
+.col-box5{
+    color: white;
+}
+
