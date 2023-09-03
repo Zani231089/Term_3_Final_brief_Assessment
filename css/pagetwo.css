@@ -4,9 +4,11 @@ html,body{
 }
 
 footer{
-    width: auto;
+    width: 100%;
     background-color: #203854;
     height: 300px;
+    margin-left: -40px;
+    margin-right: -60px;
 }
 
 /* NavBar */
@@ -62,6 +64,35 @@ footer{
     color: white;
 }
 
+/* filters and sorts */
+
+.btn-group.col-auto{
+    margin-bottom: 20px;
+    margin-left: 35%;
+}
+
+/* Card */
+
+.card{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    border: none;
+    width: 600px;
+}
+
+.card-img-top{
+    width: 600px;
+    margin: auto;
+    transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.card-body{
+    width: 600px;
+}
+
+
+
 /*Box just beneath it */
 
 .col-box2{
@@ -74,29 +105,6 @@ footer{
     background-color: lightgray;
 }
 
-/* Filter and sort blocks */
-
-.green{
-    margin-left: 50px;
-    margin-top: 30px;
-}
-
-.grey{
-    margin-top: 60px;
-    width: 400px;
-    margin-left: -1500px;
-}
-
-
-/* Card layout row 1 */
-.card{
-    text-align: center;
-}
-
-.card-img-top{
-    width: auto;
-    height: 320px;
-}
 
 /* Box created for the horizontal line */
 .col-box9{
@@ -166,10 +174,15 @@ footer{
     border-radius: 5px;
 }
 
-/*Footer */
+/* Footer logo */
 
 .col-box12{
     margin-top: 40px;
     margin-left: 80px;
     color: white;
 }
+
+.col-box5{
+    color: white;
+}
+

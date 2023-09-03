@@ -2,6 +2,24 @@ html,body{
     background-color: #ECE6DE;
 }
 
+/* Footer */
+footer{
+    width: 100%;
+    background-color: #203854;
+    height: 300px;
+}
+
+.col-box12{
+    margin-top: 40px;
+    margin-left: 80px;
+    color: white;
+}
+
+.col-box5{
+    color: white;
+}
+
+
 /* Navbar */
 
 .navbar-brand{
@@ -53,11 +71,33 @@ html,body{
     color: white;
 }
 
-/* Footer */
-
-.col-box12{
-    margin-top: 40px;
-    margin-left: 80px;
-    color: white;
+.col-box16{
+    height: 300px;
+    width: 690px;
+    background-color: #CFC7BB;
+    margin-top: 30px;
+    border-radius: 5px;
 }
+
+.col-box17{
+    height: 820px;
+    width: 690px;
+    background-color: #115F69;
+    opacity: 50%;
+    margin-top: 30px;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+
+}
+
+.button2{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+
 

@@ -9,6 +9,11 @@ footer{
     height: 250px;
 }
 
+/* Carousel buttons */
+.btn.btn-primary{
+    color: white;
+}
+
 /*nav-bar section */
 
 .navbar-brand{
