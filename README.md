@@ -1,4 +1,4 @@
-![EvergreenLogo](/assets/readme/Readme_cover.png)
+![PacificLuxury](/assets/Logo.png)
 
 This is a demo project which aims to showcase more advanced javascript and jQuery to first year development students.
 
@@ -8,11 +8,8 @@ This is a demo project which aims to showcase more advanced javascript and jQuer
 
 * [About the Project](#about-the-project)
    * [Home](#home)
-   * [Browse Plants](#browse-plants)
-* [Getting Started](#getting-started)
-  * [Installing](#installing)
+   * [Find my cruise](#browse-plants)
 * [Built With](#built-with)
-* [Contributing](#contributing)
 * [Authors](#authors)
 * [License](#license)
 * [Acknowledgements](#acknowledgements)
@@ -23,25 +20,15 @@ Evergreen allows users to browse and filter different plants to find the perfect
 
 ### Home
 
-![EvergreenLogo](/assets/readme/readme_homepage.png)
+![PacificLuxuryLogo](/assets/Home%20Page.png)
 
-### Browse Plants
+### Find my Cruise
 
-![EvergreenLogo](/assets/readme/readme_browsepage.png)
+![PacificLuxuryLogo](/assets/Find%20my%20cruise%20page.png)
 
-## Getting Started
+### Purchase Ticket
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-### Installing
-
-1. Clone the repo
-```sh
-git clone https://github.com/paulowi/DV100-T3-Class-Project-Test
-```
-2. Open the project
-
-Use `Open Workspace` in Visual Studio.
+![PacificLuxuryLogo](/assets/Purchase%20Page.png)
 
 ## Built With
 
@@ -62,8 +49,7 @@ Contributions are what make the open source community such an amazing place to b
 
 ## Authors
 
-* **Paul Loots** - *Javascript & HTML* - [PaulLoots](https://github.com/PaulLoots)
-* **Carlo Kuyper** - *Open Weather API* - [CarloOpenWindow](https://github.com/CarloOpenWindow)
+* **Zani van den Boschs** - *Javascript & HTML* - [Zani van den Bosch](https://github.com/PaulLoots)
 
 See also the list of [contributors](https://github.com/paulowi/DV100-T3-Class-Project-Test/graphs/contributors) who participated in this project.
 
@@ -71,8 +57,15 @@ See also the list of [contributors](https://github.com/paulowi/DV100-T3-Class-Pr
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
+## Plagiarism document
+
+![PacificLuxuryLogo](/assets/Zani%20van%20den%20Bosch_Plagarism%20Declaration_231089_DV100%201.png)
+
 ## Acknowledgements
 
-* Hat tip to anyone whose code was used
+* Resources
+![PacificLuxuryLogo](/assets/Image%20resource%20links.png)
+
 * Inspiration
-* etc
+![PacificLuxuryLogo](/assets/Inspiration.png)
+
