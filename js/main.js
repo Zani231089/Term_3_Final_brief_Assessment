@@ -62,6 +62,7 @@ $(document).ready(function(){
 
     //Browse Page
     $("#descriptionText").hide();
+    $("#purchaseTicketButton").hide();
     loadTrips();
 
 });
@@ -79,19 +80,20 @@ function loadTrips(){
         //1: Select the trips container
         $("#tripsContainer").append($("#tripsCardTemplate").html());
 
-        //2: Create a variable that contains the most recently added plant card
+        //2: Create a variable that contains the most recently added trip card
         let currentChild = $("#tripsContainer").children().eq(i+1);
 
-        //3: Set the content for the current card from the plants list array
+        //3: Set the content for the current card from the trips list array
         $(currentChild).find("#descriptionText").attr('src', 'assets/'+ trips.image);
         $(currentChild).find("#nameText").text(trips.name);
         $(currentChild).find("#priceText").text(trips.price);
+        $(currentChild).find("#purchaseTicketButton")
         
-        $(currentChild).find("#descriptionText").text(trips.description);
+      
 
         //4: Hide the description text from the current card item
-        $(currentChild).find("descriptionText").hide();
-
+        $(currentChild).find("#descriptionText").hide();
+        $(currentChild).find("#purchaseTicketButton").hide();
         
     };
 };
@@ -152,9 +154,12 @@ function filterSortTrips() {
 
 //When card is clicked
 
-$("#plantsContainer").on('click','.card', function(){
+$("#tripsContainer").on('click','.card', function(){
 
-    //Toggle price and description
+    //Toggle price and description and the purchase ticket button
     $(this).find("#priceText").toggle();
     $(this).find("#descriptionText").toggle();
+    $(this).find("#purchaseTicketButton").toggle();
+
+
 })
