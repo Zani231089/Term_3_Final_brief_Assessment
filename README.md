@@ -1,6 +1,5 @@
 ![PacificLuxury](/assets/Logo.png)
 
-This is a demo project which aims to showcase more advanced javascript and jQuery to first year development students.
 
 [Watch the demo »]()
 
@@ -16,7 +15,7 @@ This is a demo project which aims to showcase more advanced javascript and jQuer
 
 ## About The Project
 
-Evergreen allows users to browse and filter different plants to find the perfect addition to their home.
+Pacific Luxury is a cruise line that aims to cntribute to the excitement and fun of people who join the cruise ship to various islands like Fiji or the Cook Islands
 
 ### Home
 
@@ -59,7 +58,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Plagiarism document
 
-![PacificLuxuryLogo](/assets/Zani%20van%20den%20Bosch_Plagarism%20Declaration_231089_DV100%201.png)
+![PacificLuxuryLogo](/assets/Plagiarism%20Document.png)
 
 ## Acknowledgements
 
