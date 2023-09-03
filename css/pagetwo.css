@@ -4,11 +4,10 @@ html,body{
 }
 
 footer{
-    width: 100%;
     background-color: #203854;
     height: 300px;
-    margin-left: -40px;
-    margin-right: -60px;
+    margin-left: -70px;
+    margin-right: -70px;
 }
 
 /* NavBar */

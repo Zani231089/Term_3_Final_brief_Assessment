@@ -51,15 +51,14 @@ const arrTrips = [
     }
 ];
 
-
+let appliedFilter = "";
+let appliedSort = "date added";
 
 
 
 //When the document loads
 
 $(document).ready(function(){
-
-    console.log("Hello");
 
     //Browse Page
     $("#descriptionText").hide();
@@ -137,15 +136,25 @@ function filterSortTrips() {
     }else if (appliedSort === "date added") {
         
         //Sort plants newest to oldest
+        filteredSortedArrTrips = filteredSortedArrTrips.sort((a, b) => {
+            let da = new Date(a.addedDate);
+            let db = new Date(b.addedDate);
+
+            return db - da;
+        });
     }
+
+    console.log(filteredSortedArrTrips)
+
+    loadTrips(filteredSortedArrTrips)
 }
 
 
 //When card is clicked
 
-$(".card").click(function(){
+$("#plantsContainer").on('click','.card', function(){
 
     //Toggle price and description
-    $("#priceText").toggle();
-    $("#descriptionText").toggle();
+    $(this).find("#priceText").toggle();
+    $(this).find("#descriptionText").toggle();
 })
