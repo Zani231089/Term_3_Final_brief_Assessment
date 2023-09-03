@@ -63,34 +63,45 @@
       </nav>
     </nav>
 
-    <div class="container-fluid">
-          <div class="row">
-            <div class="col-12">
-              <div class="col-box15">
-                
-              </div>
-            </div>
-
-            <div class="col-6">
-              <div class="col-box16">
-                <div class="checkRight">
-                  <h5>Your Total</h5>
-                  <h6 id="totalOut" class="total">R0.00</h6>
-                </div>
-              </div>
-            </div>
-            <div class="col-6">
-              <div class="col-box17" id="checkoutOrder">
-              <h3>Your Trips:</h3> 
-            </div> 
-
-            
-            <div class="button2"><button class="btn btn-success" type="button" onclick="">Finalize payment</button> </div>  
-            
-
-          </div>
-        </div>
-      </div>
+    <table class="table table-hover" id="tableContents">
+      <thead>
+        <tr>
+          <th scope="col">Trip Code</th>
+          <th scope="col">Trip Quantity</th>
+          <th scope="col">Total Cost</th>
+          <th scope="col">Remove</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="wholeRowOne">
+          <th scope="row" class="entireRow">1:  233390</th>
+          <td>1</td>
+          <td class="tableText">R 3200</td>
+          <td><button class="remove" id="removeButton">Remove</button></td>
+        </tr>
+        <tr class="wholeRowTwo">
+          <th scope="row" class="entireRow">2:  233490</th>
+          <td> 2</td>
+          <td class="tableText">R 1600</td>
+          <td><button class="remove" id="removeButton">Remove</button></td>
+        </tr>
+        <tr class="wholeRowThree">
+          <th scope="row" class="entireRow">3:  233670</th>
+          <td>3</td>
+          <td class="tableText">R 5700</td>
+          <td><button class="remove" id="removeButton">Remove</button></td>
+        </tr>
+        <tr class="wholeRowFour">
+          <th scope="row" class="entireRow" style="margin: 30px;">3:  233554</th>
+          <td>1</td>
+          <td class="tableText">R 2100</td>
+          <td><button class="remove" id="removeButton">Remove</button></td>
+        </tr>
+        <td><button class="removeAll" id="removeAllButton">Remove all Trips</button></td>
+      </tbody>
+      
+  </table>
+  
 
 
   </body>
@@ -130,3 +141,11 @@
     </div>
   </footer>
 </html>
+
+<!-- Scripts -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script src="../js/main.js"></script>

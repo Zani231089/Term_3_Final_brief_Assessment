@@ -162,4 +162,26 @@ $("#tripsContainer").on('click','.card', function(){
     $(this).find("#purchaseTicketButton").toggle();
 
 
-})
+});
+
+
+//Purchase Page
+//When the remove button is clicked
+
+$("#removeButton").click(function(){
+
+    //When the remove button is clicked is clicked
+    $(".wholeRowOne").remove();
+
+});
+
+
+$("#removeAllButton").click(function(){
+
+    //When the remove all button is clicked
+    $(".wholeRowOne").remove();
+    $(".wholeRowTwo").remove();
+    $(".wholeRowThree").remove();
+    $(".wholeRowFour").remove();
+
+});
